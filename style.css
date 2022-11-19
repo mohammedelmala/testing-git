@@ -9,10 +9,10 @@
   --clr-gray-5: #617d98;
   --clr-gray-10: #f1f5f8;
   --clr-white: #fff;
+  --clr-primary-color: #f12525;
 }
 body {
   background-color: var(--clr-gray-10);
-  color: var(--clr-gray-1);
 }
 .center {
   width: 100vw;
@@ -35,6 +35,7 @@ body {
   animation: round 1s linear infinite;
 }
 h1 {
+  color: var(--clr-primary-color);
   letter-spacing: 4px;
   line-height: 2;
   text-transform: uppercase;
